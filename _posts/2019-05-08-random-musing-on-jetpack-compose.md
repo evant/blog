@@ -1,8 +1,9 @@
 # Random musing on Jetpack Compose
 
-Compose is a new reactive-style ui framework for android. After poking around
-in the source code, there are some interesting architectural decisions I would
-like to highlight:
+[Compose](https://developer.android.com/jetpack/compose) is a new
+reactive-style ui framework for android. After poking around in the source
+code, there are some interesting architectural decisions I would like to
+highlight:
 
 1. It is actually quite ambitious, instead of binding to TextView etc, it is
    laying out and rendering the ui itself. There will be interoperability with
