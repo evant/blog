@@ -12,10 +12,10 @@ github_username: evant
 
 # Email and twitter are optional:
 email: 
-twitter_username: 
+twitter_username: @evantatarka
 
 # OPTIONAL: override baseurl and url if using a custom domain
-#url:  the base hostname & protocol for your site, e.g. http://example.com
+url: https://evan.tatarka.me
 #baseurl: the subpath of your site, e.g. /blog
 
 # Set this to true to get LaTeX math equation support
