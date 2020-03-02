@@ -49,7 +49,7 @@ operation:
 ```kotlin
 override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
   val binding = MyBinding.bind(view)
-  viewLifecycleOwner.lifecycle.coroutineScope.launchWhenStarted {
+  viewLifecycleOwner.lifecycleScope.launchWhenStarted {
     viewModel.title.collect { text -> binding.text = text } 
   }
 }
@@ -126,7 +126,7 @@ private val showCamera = Channel<Boolean>(1)
 override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
   val binding = MyBinding.bind(view)
 
-  viewLifecycleOwner.lifecycle.coroutineScope.launchWhenStarted {
+  viewLifecycleOwner.lifecycleScope.launchWhenStarted {
     for (permission in showCamera) {
       if (permission) {
         startActivity(Intent(requireContext(), CameraActivity::class.java)
