@@ -1,9 +1,9 @@
 # You Don't Need to Null Out Views
 
-There's been a long standing footgun when using fragments on android because
-it's views can be recreated out from under it. Solutions to this have ranged
+There's been a long standing footgun when using fragments on Android because
+the fragment may live longer than it's views. Solutions to this have ranged
 from ignoring the problem to some complicated rxjava setup. However, with the
-additions to androidx this is no longer necessary!
+additions to AndroidX this is no longer necessary!
 
 The trick is to scope all view interactions to `onViewCreated()`. 
 
@@ -25,9 +25,8 @@ constructor](https://developer.android.com/reference/androidx/fragment/app/Fragm
 and [view binding](https://developer.android.com/topic/libraries/view-binding).
 
 Now, you may be wondering how you are supposed to accomplish much with this
-limited scope, but with a few other androidx features it turns out to be quite
-a bit.
-
+limited scope, but with a few other AndroidX features it turns out you can do
+quite a lot.
 
 ## Listening for updates
 
@@ -75,7 +74,7 @@ override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 ## Other Callbacks
 
 The one place where this gets more tricky is if you need to handle other
-callbacks that haven't yet been broken out by androidx. For example, runtime
+callbacks that haven't yet been broken out by AndroidX. For example, runtime
 permissions. In these cases, I would recommend routing the event in a way you
 can react to it.
 
@@ -159,5 +158,5 @@ override fun onRequestPermissionsResult(
 ```
 
 By scoping your views to `onViewCreated` you don't have to worry about nulling
-them out our calling them at the wrong time. And androidx gives you the tools
+them out our calling them at the wrong time. And AndroidX gives you the tools
 to do it!
