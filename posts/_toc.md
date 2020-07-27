@@ -1,0 +1,5 @@
+[Home](/)
+[You Dont Need to Null Out Views](/2020-03-02-you-dont-need-to-null-out-views)
+[Some More Biometric Messes](/2020-01-29-some-more-biometric-messes)
+[The Mess that is Android Biometrics](/2019-10-01-the-mess-that-is-android-biometrics)
+[Random musing on Jetpack Compose](/2019-05-08-random-musing-on-jetpack-compose)
