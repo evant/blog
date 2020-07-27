@@ -1,0 +1,116 @@
+<!DOCTYPE html><html><head><title>Blog | The Mess that is Android Biometrics</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"><meta name="robots" content="index,follow"><meta name="theme-color" content="#212121"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><link rel="shortcut icon" href="/evant.github.io/favicon.ico"><link href="https://fonts.googleapis.com/css?family=Hind:400,700&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:300,400&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet"><style>
+      body, input, button {
+        font-family: 'Hind', sans-serif;
+      }
+
+      code, .hljs {
+        font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+      }
+
+      .icon-font {
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 24px;  /* Preferred icon size */
+        display: inline-block;
+        line-height: 1;
+        text-transform: none;
+        letter-spacing: normal;
+        word-wrap: normal;
+        white-space: nowrap;
+        direction: ltr;
+      
+        /* Support for all WebKit browsers. */
+        -webkit-font-smoothing: antialiased;
+        /* Support for Safari and Chrome. */
+        text-rendering: optimizeLegibility;
+      
+        /* Support for Firefox. */
+        -moz-osx-font-smoothing: grayscale;
+      
+        /* Support for IE. */
+        font-feature-settings: 'liga';
+      }
+
+      .icon-font.outline {
+        font-family: 'Material Icons Outlined';
+      }
+    </style><link href="/evant.github.io/styles/codedoc-styles.css" rel="stylesheet"><script async="" defer="" src="/evant.github.io/bundle/codedoc-bundle.js"></script><script>window.githubConfig={"repo":"evant.github.io","user":"evant"}</script><style>.container{padding-top: 0 !important}</style><style>#-codedoc-toc { backdrop-filter: blur(16px); -webkit-backdrop-filter: blur(16px) }</style><meta name="twitter:title" content="Blog | The Mess that is Android Biometrics"><meta property="og:type" content="article"><meta property="og:title" content="Blog | The Mess that is Android Biometrics"></head><body><div class="header-0-0-8"><a class="watermark-0-0-7" href="https://coding.blog" target="_blank"><svg viewBox="0 0 701 443" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="coding.blog" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-162.000000, -246.000000)" id="Shape"><path d="M538.081948,246.348452 L538.52402,246.445719 L538.52402,246.445719 L538.85529,246.526578 L538.85529,246.526578 L600.956012,263.165455 C602.767076,263.660918 604.526214,264.465865 606.146589,265.591976 C611.80881,269.527048 614.090389,276.211909 612.345003,282.123825 L538.2641,559.728905 C537.816127,561.562539 536.989561,563.335054 535.765607,564.944016 C530.70443,571.597248 520.764856,572.934442 513.564947,567.930724 C507.902727,563.995652 505.621148,557.310791 507.366534,551.398875 L577.145082,289.91439 L546.233523,281.631663 L462.305576,595.917544 L468.439004,634.645619 L493.907962,603.194573 C499.468987,596.327279 509.54413,595.268339 516.411424,600.829364 C523.278717,606.390389 524.337658,616.465532 518.776633,623.332826 L470.948283,682.395919 C466.887248,687.410879 460.418878,689.3283 454.55045,687.832105 L454.212574,687.741996 C448.224449,686.200133 443.421088,681.240355 442.392221,674.744345 L430.503202,599.680031 C430.418831,599.147339 430.361793,598.616628 430.331048,598.089327 C429.783912,595.705405 429.838457,593.220092 430.535776,590.858154 L519.361965,258.223717 L519.447729,257.889555 L519.447729,257.889555 L519.532157,257.586199 L519.627058,257.23399 C520.074771,255.398716 520.901697,253.624577 522.126677,252.014264 C525.828762,247.147643 532.141006,245.125338 538.081948,246.348452 Z M632.156421,656.157784 C640.992977,656.157784 648.156421,663.321228 648.156421,672.157784 C648.156421,680.99434 640.992977,688.157784 632.156421,688.157784 L528.156421,688.157784 C519.319865,688.157784 512.156421,680.99434 512.156421,672.157784 C512.156421,663.321228 519.319865,656.157784 528.156421,656.157784 L632.156421,656.157784 Z M699.234631,342.452157 L857.62655,500.844076 C863.874939,507.092464 863.874939,517.223104 857.62655,523.471493 L699.234631,681.863412 C692.986243,688.1118 682.855603,688.1118 676.607214,681.863412 C670.358826,675.615023 670.358826,665.484383 676.607214,659.235995 L823.686132,512.157077 L676.607214,365.079574 C670.358826,358.831185 670.358826,348.700545 676.607214,342.452157 C682.855603,336.203768 692.986243,336.203768 699.234631,342.452157 Z M347.705627,342.452157 C353.954016,348.700545 353.954016,358.831185 347.705627,365.079574 L200.62671,512.158491 L347.705627,659.235995 C353.954016,665.484383 353.954016,675.615023 347.705627,681.863412 C341.457239,688.1118 331.326599,688.1118 325.07821,681.863412 L166.686292,523.471493 C160.437903,517.223104 160.437903,507.092464 166.686292,500.844076 L325.07821,342.452157 C331.326599,336.203768 341.457239,336.203768 347.705627,342.452157 Z"></path></g></g></svg></a></div><div id="-codedoc-container" class="container"><script>window.source = {"base":"posts","path":"2019-10-01-the-mess-that-is-android-biometrics.md","namespace":"/evant.github.io","title":{"base":"Blog","connector":" | "}}</script><h1 id="the-mess-that-is-android-biometrics" class="heading-0-0-1"><span class="anchor-0-0-2" data-ignore-text=""><span class="icon-font" data-ignore-text="" style="vertical-align: sub">link</span></span>The Mess that is Android Biometrics</h1><p>Oh FingerprintManager is deprecated? It’s replaced with this new thing
+BiometricPrompt that comes with it’s own UI and supports a wider range of
+biometrics? There’s even an <a href="https://developer.android.com/jetpack/androidx/releases/biometric">androidx
+library</a>
+that does the compatibility work for you? This will be easy! HAHAHAHHAHHAHA</p><p>This is the story of all the pain I’ve run into with implementing
+BiometricPrompt so you don’t have to.</p><p>If you just want a recommendation for today, it would be: Use
+FingerprintManager on Android 9, use BiometricPrompt on Android 10, throw in a
+few hacks for a better user experience, and cross your fingers and hope for the
+best.</p><h2 id="the-beginning" class="heading-0-0-1"><span class="anchor-0-0-2" data-ignore-text=""><span class="icon-font" data-ignore-text="" style="vertical-align: sub">link</span></span>The beginning</h2><p>It all started back in 2018, fresh off the google I/O hype train. I decided to
+look into this new BiometricPrompt thing. It looked easy to implement and came
+with an androidx lib in alpha that seemed to work alright. So I went ahead and
+implemented a rough POC in my project, demoed to our product owner on a Pixel 1
+and everything looked great. “That was easy”, I thought. Little did I know what
+was to come.</p><h2 id="the-cracks-start-to-show" class="heading-0-0-1"><span class="anchor-0-0-2" data-ignore-text=""><span class="icon-font" data-ignore-text="" style="vertical-align: sub">link</span></span>The cracks start to show</h2><p>Done with the happy path, I went on to implement the error handling. Making
+sure all was well, I made sure to test on both the BiometricPrompt and
+FingerprintManager paths. Unfortunately, I noticed some major differences on
+how things were handled such as cases where the user was locked out because of
+too many fingerprint attempts. Before Android 9 it would show the dialog with
+the error, but on Android 9 it would show nothing. “No worries”, I thought. The
+lib was in alpha. I filled a bug and put in a work-around.</p><p>With BiometricPrompt I also noticed that there could be several seconds between
+when asking to show the dialog and when it actually showed or an error was
+returned. I worked around this by adding in a loading indicator in the ui. But
+when to stop showing it? There’s no callback when the BiometricPrompt is
+actually shown and no lifecycle events are fired. Eventually, I found out that
+the window loses focus when the prompt is shown. So with one
+<code>OnWindowFocusChangeListener</code> later I got that fixed.</p><p>Given that biometrics is an optional feature for our users, naturally we’d want
+a way to detect that they have it enabled. Well apparently nobody at Google
+thought of that as they went ahead and deprecated
+<code>FingerprintManager.hasEnrolledFingerprints()</code> without providing a replacement.
+But no phone out there <em>actually</em> uses any other authentication besides
+fingerprint right? So went ahead using that deprecated method (stay tuned).</p><p>Everything seemed fine until I got a bug from QA. Sometimes the prompt wasn’t
+showing, only on Android 9 of course. I was confused, we show it in <code>onResume()</code>,
+no complicated logic there. Well it turns out that’s not good enough for
+BiometricPrompt. From what I can only assume was to prevent from showing when
+the app is in the background, if your window doesn’t have focus, the call will
+simply be ignored. Furthermore, in the <code>onResume()</code> callback, your window will
+only sometimes have focus because having a consistent callback ordering in
+android would be boring. Solution: another OnWindowFocusChangeListener then.
+<em>Sigh</em>.</p><p>The implementation wasn’t as pretty now, but hey nothing that couldn’t be
+worked-around. Everything looked good and we shipped with our shiny new
+biometric prompt.</p><h2 id="enter-our-good-friend-take-one-guess-spoiler-its-samsung" class="heading-0-0-1"><span class="anchor-0-0-2" data-ignore-text=""><span class="icon-font" data-ignore-text="" style="vertical-align: sub">link</span></span>Enter our good friend (take one guess, spoiler it’s Samsung)</h2><p>Not too long after we shipped, Samsung finally got around to updating their
+phones to Android 9. Now if you weren’t aware (I wasn’t) these phones had this
+nifty ‘feature’ where you could unlock your phone with your face or iris. Now
+you may be thinking, “hey this doesn’t sound all that secure.” Well guess what?
+<a href="https://www.forbes.com/sites/amitchowdhry/2017/03/31/samsung-acknowledges-galaxy-s8-facial-recognition-security-limitations/#32d9d0ed1aff">It</a>
+<a href="https://arstechnica.com/information-technology/2017/05/breaking-the-iris-scanner-locking-samsungs-galaxy-s8-is-laughably-easy/">isn’t!</a>
+That would be ok if it was only contained as an OS feature and didn’t affect
+app api’s, but this is Samsung we’re talking about. Mucking with api’s is their
+expertise. In their infinite wisdom they decided to update the stock biometric
+prompt work with face/iris. So now we have two wonderful issues:</p><ol><li><code>FingerprintManager.hasEnrolledFingerprints()</code> might not be right anymore. If
+the user has face/iris enrolled but no fingerprints, it’ll return false. If
+they have both it’ll return true, but show the face/iris unlock for the
+dialog. And of course we don’t have any other api to use instead.</li><li>Now this one is a <a href="https://issuetracker.google.com/issues/123997468">doozy</a>.
+You know how I mentioned that these methods weren’t secure? Well the system
+correctly realizes this and refuses to decrypt the key for you when using
+face. So you prompt the user to authenticate with biometrics, they
+authenticate with their face, and boom! You get a SignatureException. Of
+course there’s no way to know which biometrics the user has enabled, so you
+are screwed.</li></ol><p>Well the bad user reviews were coming in and we needed to figure out how to fix
+this quick. There’s no easy workaround we can add this time. So we did the next
+best thing: copy all of androidx biometric into our app and hard-code it to use
+the stock FingerprintManager implementation. And that’s where things stand
+today.</p><h2 id="a-hope-for-the-future" class="heading-0-0-1"><span class="anchor-0-0-2" data-ignore-text=""><span class="icon-font" data-ignore-text="" style="vertical-align: sub">link</span></span>A hope for the future?</h2><p>So here we are, using a compat lib but not really. We could’ve stuck with
+FingerprintManager and ignored all of this mess. However, Android 10 did just
+came out, and there’s been some improvements in the androidx lib, maybe there’s
+hope?</p><p>For one Android 10 did finally add a replacement to
+<code>FingerprintManager.hasEnrolledFingerprints()</code> in the form of
+<code>BiometricManager.canAuthenticate()</code>. Unfortunately that won’t help us on Android 9.
+They also tightened the CTS (compatibly test suite) around this so with any
+luck the Samsung issues will get fixed when they update to 10. Finally, they
+seem to be <a href="https://issuetracker.google.com/issues/129937212">receptive</a> to add
+some sort of work-around for the Samsung issue in the androidx lib. And with
+the Pixel 4 around the corner which is rumored on only have face unlock, this
+is good. As it stands today, we aren’t quite at the place we can drop something
+in and call it a day, but we are a bit closer.</p><script id="GuUsKHnNdb">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("GuUsKHnNdb", "PFhwqFF68841RB6Nunq1Zg==", {});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script><div class="contentnav-0-0-13" data-no-search=""><a href="#the-mess-that-is-android-biometrics" class="h1" data-content-highlight="the-mess-that-is-android-biometrics">The Mess that is Android Biometrics</a><a href="#the-beginning" class="h2" data-content-highlight="the-beginning">The beginning</a><a href="#the-cracks-start-to-show" class="h2" data-content-highlight="the-cracks-start-to-show">The cracks start to show</a><a href="#enter-our-good-friend-take-one-guess-spoiler-its-samsung" class="h2" data-content-highlight="enter-our-good-friend-take-one-guess-spoiler-its-samsung">Enter our good friend (take one guess, spoiler it’s Samsung)</a><a href="#a-hope-for-the-future" class="h2" data-content-highlight="a-hope-for-the-future">A hope for the future?</a></div></div><div id="-codedoc-toc" class="toc-0-0-10"><div class="content-0-0-11"><p><a href="/evant.github.io/">Home</a>
+<a href="/evant.github.io/2020-03-02-you-dont-need-to-null-out-views">You Dont Need to Null Out Views</a>
+<a href="/evant.github.io/2020-01-29-some-more-biometric-messes">Some More Biometric Messes</a>
+<a href="/evant.github.io/2019-10-01-the-mess-that-is-android-biometrics">The Mess that is Android Biometrics</a>
+<a href="/evant.github.io/2019-05-08-random-musing-on-jetpack-compose">Random musing on Jetpack Compose</a></p></div></div><div class="footer-0-0-9"><div class="left"><script id="sgEmKPNPev">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("sgEmKPNPev", "k0lYj9deiYXngpZFqYY0vQ==", {});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script></div><div class="main"><div class="inside"></div></div><div class="right"><script id="WviyhznbEd">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("WviyhznbEd", "QtGDrozMmpfzLYU0jY3n+w==", {});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script></div></div><script id="BumyootOtk">(function(){function load(){if (window.__sdh_transport){window.__sdh_transport("BumyootOtk", "Rs0VnrLCFSwfOm1o3R6OHg==", {"namespace":"/evant.github.io"});} }; if (document.readyState == 'complete') load(); else window.addEventListener('load', load); })()</script></body></html>
