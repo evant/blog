@@ -25,4 +25,8 @@
 
 > :Author src=github
 
+
+Opinions expressed here are my own, not those of my company.
+
+
 > :ToCPrevNext
