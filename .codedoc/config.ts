@@ -12,7 +12,7 @@ export const config = /*#__PURE__*/configuration({
     base: 'posts'
   },
   dest: {
-    namespace: '/evant.github.io',    // --> change this if you want to also deploy to GitHub Pages
+    namespace: '/blog',    // --> change this if you want to also deploy to GitHub Pages
     html: 'dist',
     assets: process.env.GITHUB_BUILD === 'true' ? 'dist' : '.',
     bundle: process.env.GITHUB_BUILD === 'true' ? 'bundle' : 'dist/bundle',
