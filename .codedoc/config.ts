@@ -37,7 +37,7 @@ export const config = /*#__PURE__*/configuration({
   ],
   misc: {
     github: {
-      repo: 'evant.github.io',
+      repo: 'blog',
       user: 'evant'
     }
   }
