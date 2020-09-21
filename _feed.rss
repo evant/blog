@@ -4,7 +4,7 @@
         <title>Blog</title>
         <link>https://evan.tatarka.me/blog</link>
         <description></description>
-        <lastBuildDate>Mon, 21 Sep 2020 15:05:07 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 21 Sep 2020 15:08:06 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <atom:link href="https://evan.tatarka.me/_feed.rss" rel="self" type="application/rss+xml"/>
@@ -12,7 +12,7 @@
             <title><![CDATA[Blog | Random musing on Jetpack Compose]]></title>
             <link>https://evan.tatarka.me/blog/2019-05-08-random-musing-on-jetpack-compose</link>
             <guid>https://evan.tatarka.me/blog/2019-05-08-random-musing-on-jetpack-compose</guid>
-            <pubDate>Mon, 21 Sep 2020 15:03:36 GMT</pubDate>
+            <pubDate>Mon, 21 Sep 2020 15:06:55 GMT</pubDate>
             <content:encoded><![CDATA[Compose is a new
 reactive-style ui framework for android. After poking around in the source
 code, there are some interesting architectural decisions I would like to
@@ -20,22 +20,10 @@ highlight: ...]]></content:encoded>
             <author>evan.tatarka@willowtreeapps.com (Evan Tatarka)</author>
         </item>
         <item>
-            <title><![CDATA[Blog | The Mess that is Android Biometrics]]></title>
-            <link>https://evan.tatarka.me/blog/2019-10-01-the-mess-that-is-android-biometrics</link>
-            <guid>https://evan.tatarka.me/blog/2019-10-01-the-mess-that-is-android-biometrics</guid>
-            <pubDate>Mon, 21 Sep 2020 15:03:36 GMT</pubDate>
-            <content:encoded><![CDATA[Oh FingerprintManager is deprecated? It’s replaced with this new thing
-BiometricPrompt that comes with it’s own UI and supports a wider range of
-biometrics? There’s even an androidx
-library
-that does the compatibility work for you? This will be easy! HAHAHAHHAHHAHA ...]]></content:encoded>
-            <author>evan.tatarka@willowtreeapps.com (Evan Tatarka)</author>
-        </item>
-        <item>
             <title><![CDATA[Blog | Some More Biometric Messes]]></title>
             <link>https://evan.tatarka.me/blog/2020-01-29-some-more-biometric-messes</link>
             <guid>https://evan.tatarka.me/blog/2020-01-29-some-more-biometric-messes</guid>
-            <pubDate>Mon, 21 Sep 2020 15:03:36 GMT</pubDate>
+            <pubDate>Mon, 21 Sep 2020 15:06:55 GMT</pubDate>
             <content:encoded><![CDATA[This is a follow-up to The Mess that is Android
 Biometrics,
 as we found even more wonderful surprises. ...]]></content:encoded>
@@ -45,11 +33,23 @@ as we found even more wonderful surprises. ...]]></content:encoded>
             <title><![CDATA[Blog | You Don't Need to Null Out Views]]></title>
             <link>https://evan.tatarka.me/blog/2020-03-02-you-dont-need-to-null-out-views</link>
             <guid>https://evan.tatarka.me/blog/2020-03-02-you-dont-need-to-null-out-views</guid>
-            <pubDate>Mon, 21 Sep 2020 15:03:36 GMT</pubDate>
+            <pubDate>Mon, 21 Sep 2020 15:06:55 GMT</pubDate>
             <content:encoded><![CDATA[There's been a long standing footgun when using fragments on Android because
 the fragment may live longer than it's views. Solutions to this have ranged
 from ignoring the problem to some complicated rxjava setup. However, with the
 additions to AndroidX this is no longer necessary! ...]]></content:encoded>
+            <author>evan.tatarka@willowtreeapps.com (Evan Tatarka)</author>
+        </item>
+        <item>
+            <title><![CDATA[Blog | The Mess that is Android Biometrics]]></title>
+            <link>https://evan.tatarka.me/blog/2019-10-01-the-mess-that-is-android-biometrics</link>
+            <guid>https://evan.tatarka.me/blog/2019-10-01-the-mess-that-is-android-biometrics</guid>
+            <pubDate>Mon, 21 Sep 2020 15:06:55 GMT</pubDate>
+            <content:encoded><![CDATA[Oh FingerprintManager is deprecated? It’s replaced with this new thing
+BiometricPrompt that comes with it’s own UI and supports a wider range of
+biometrics? There’s even an androidx
+library
+that does the compatibility work for you? This will be easy! HAHAHAHHAHHAHA ...]]></content:encoded>
             <author>evan.tatarka@willowtreeapps.com (Evan Tatarka)</author>
         </item>
     </channel>
