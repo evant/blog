@@ -27,13 +27,11 @@ export const config = /*#__PURE__*/configuration({
     },
     favicon: '/favicon.ico',
     scripts: [<script>{`
-<script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'UA-160017120-1');
-</script>
 `}</script>, <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160017120-1"></script>],
     stylesheets: [<style>{`.inside {justify-content: center}`}</style>]
   },
