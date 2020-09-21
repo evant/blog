@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://evan.tatarka.me/blog</id>
     <title>Blog</title>
-    <updated>2020-09-21T15:08:06.314Z</updated>
+    <updated>2020-09-21T16:52:40.182Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://evan.tatarka.me/blog"/>
     <link rel="self" href="https://evan.tatarka.me/_feed.atom"/>
@@ -11,7 +11,7 @@
         <title type="html"><![CDATA[Blog | Random musing on Jetpack Compose]]></title>
         <id>https://evan.tatarka.me/blog/2019-05-08-random-musing-on-jetpack-compose</id>
         <link href="https://evan.tatarka.me/blog/2019-05-08-random-musing-on-jetpack-compose"/>
-        <updated>2020-09-21T15:06:55.000Z</updated>
+        <updated>2020-09-21T16:51:15.000Z</updated>
         <content type="html"><![CDATA[Compose is a new
 reactive-style ui framework for android. After poking around in the source
 code, there are some interesting architectural decisions I would like to
@@ -20,42 +20,13 @@ highlight: ...]]></content>
             <name>Evan Tatarka</name>
             <email>evan.tatarka@willowtreeapps.com</email>
         </author>
-        <published>2020-09-21T15:06:55.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blog | Some More Biometric Messes]]></title>
-        <id>https://evan.tatarka.me/blog/2020-01-29-some-more-biometric-messes</id>
-        <link href="https://evan.tatarka.me/blog/2020-01-29-some-more-biometric-messes"/>
-        <updated>2020-09-21T15:06:55.000Z</updated>
-        <content type="html"><![CDATA[This is a follow-up to The Mess that is Android
-Biometrics,
-as we found even more wonderful surprises. ...]]></content>
-        <author>
-            <name>Evan Tatarka</name>
-            <email>evan.tatarka@willowtreeapps.com</email>
-        </author>
-        <published>2020-09-21T15:06:55.000Z</published>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Blog | You Don't Need to Null Out Views]]></title>
-        <id>https://evan.tatarka.me/blog/2020-03-02-you-dont-need-to-null-out-views</id>
-        <link href="https://evan.tatarka.me/blog/2020-03-02-you-dont-need-to-null-out-views"/>
-        <updated>2020-09-21T15:06:55.000Z</updated>
-        <content type="html"><![CDATA[There's been a long standing footgun when using fragments on Android because
-the fragment may live longer than it's views. Solutions to this have ranged
-from ignoring the problem to some complicated rxjava setup. However, with the
-additions to AndroidX this is no longer necessary! ...]]></content>
-        <author>
-            <name>Evan Tatarka</name>
-            <email>evan.tatarka@willowtreeapps.com</email>
-        </author>
-        <published>2020-09-21T15:06:55.000Z</published>
+        <published>2020-09-21T16:51:15.000Z</published>
     </entry>
     <entry>
         <title type="html"><![CDATA[Blog | The Mess that is Android Biometrics]]></title>
         <id>https://evan.tatarka.me/blog/2019-10-01-the-mess-that-is-android-biometrics</id>
         <link href="https://evan.tatarka.me/blog/2019-10-01-the-mess-that-is-android-biometrics"/>
-        <updated>2020-09-21T15:06:55.000Z</updated>
+        <updated>2020-09-21T16:51:15.000Z</updated>
         <content type="html"><![CDATA[Oh FingerprintManager is deprecated? It’s replaced with this new thing
 BiometricPrompt that comes with it’s own UI and supports a wider range of
 biometrics? There’s even an androidx
@@ -65,6 +36,35 @@ that does the compatibility work for you? This will be easy! HAHAHAHHAHHAHA ...]
             <name>Evan Tatarka</name>
             <email>evan.tatarka@willowtreeapps.com</email>
         </author>
-        <published>2020-09-21T15:06:55.000Z</published>
+        <published>2020-09-21T16:51:15.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blog | Some More Biometric Messes]]></title>
+        <id>https://evan.tatarka.me/blog/2020-01-29-some-more-biometric-messes</id>
+        <link href="https://evan.tatarka.me/blog/2020-01-29-some-more-biometric-messes"/>
+        <updated>2020-09-21T16:51:15.000Z</updated>
+        <content type="html"><![CDATA[This is a follow-up to The Mess that is Android
+Biometrics,
+as we found even more wonderful surprises. ...]]></content>
+        <author>
+            <name>Evan Tatarka</name>
+            <email>evan.tatarka@willowtreeapps.com</email>
+        </author>
+        <published>2020-09-21T16:51:15.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Blog | You Don't Need to Null Out Views]]></title>
+        <id>https://evan.tatarka.me/blog/2020-03-02-you-dont-need-to-null-out-views</id>
+        <link href="https://evan.tatarka.me/blog/2020-03-02-you-dont-need-to-null-out-views"/>
+        <updated>2020-09-21T16:51:15.000Z</updated>
+        <content type="html"><![CDATA[There's been a long standing footgun when using fragments on Android because
+the fragment may live longer than it's views. Solutions to this have ranged
+from ignoring the problem to some complicated rxjava setup. However, with the
+additions to AndroidX this is no longer necessary! ...]]></content>
+        <author>
+            <name>Evan Tatarka</name>
+            <email>evan.tatarka@willowtreeapps.com</email>
+        </author>
+        <published>2020-09-21T16:51:15.000Z</published>
     </entry>
 </feed>
