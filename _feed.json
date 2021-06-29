@@ -9,8 +9,8 @@
             "content_html": "Compose is a new\nreactive-style ui framework for android. After poking around in the source\ncode, there are some interesting architectural decisions I would like to\nhighlight: ...",
             "url": "https://evan.tatarka.me/blog/2019-05-08-random-musing-on-jetpack-compose",
             "title": "Blog | Random musing on Jetpack Compose",
-            "date_modified": "2021-06-28T21:57:04.000Z",
-            "date_published": "2021-06-28T21:57:04.000Z",
+            "date_modified": "2021-06-28T21:57:05.000Z",
+            "date_published": "2021-06-28T21:57:05.000Z",
             "author": {
                 "name": "dependabot[bot]"
             }
@@ -20,8 +20,8 @@
             "content_html": "Oh FingerprintManager is deprecated? It’s replaced with this new thing\nBiometricPrompt that comes with it’s own UI and supports a wider range of\nbiometrics? There’s even an androidx\nlibrary\nthat does the compatibility work for you? This will be easy! HAHAHAHHAHHAHA ...",
             "url": "https://evan.tatarka.me/blog/2019-10-01-the-mess-that-is-android-biometrics",
             "title": "Blog | The Mess that is Android Biometrics",
-            "date_modified": "2021-06-28T21:57:04.000Z",
-            "date_published": "2021-06-28T21:57:04.000Z",
+            "date_modified": "2021-06-28T21:57:05.000Z",
+            "date_published": "2021-06-28T21:57:05.000Z",
             "author": {
                 "name": "dependabot[bot]"
             }
@@ -31,8 +31,8 @@
             "content_html": "This is a follow-up to The Mess that is Android\nBiometrics,\nas we found even more wonderful surprises. ...",
             "url": "https://evan.tatarka.me/blog/2020-01-29-some-more-biometric-messes",
             "title": "Blog | Some More Biometric Messes",
-            "date_modified": "2021-06-28T21:57:04.000Z",
-            "date_published": "2021-06-28T21:57:04.000Z",
+            "date_modified": "2021-06-28T21:57:05.000Z",
+            "date_published": "2021-06-28T21:57:05.000Z",
             "author": {
                 "name": "dependabot[bot]"
             }
@@ -42,8 +42,8 @@
             "content_html": "There's been a long standing footgun when using fragments on Android because\nthe fragment may live longer than it's views. Solutions to this have ranged\nfrom ignoring the problem to some complicated rxjava setup. However, with the\nadditions to AndroidX this is no longer necessary! ...",
             "url": "https://evan.tatarka.me/blog/2020-03-02-you-dont-need-to-null-out-views",
             "title": "Blog | You Don't Need to Null Out Views",
-            "date_modified": "2021-06-28T21:57:04.000Z",
-            "date_published": "2021-06-28T21:57:04.000Z",
+            "date_modified": "2021-06-28T21:57:05.000Z",
+            "date_published": "2021-06-28T21:57:05.000Z",
             "author": {
                 "name": "dependabot[bot]"
             }
