@@ -1,4 +1,7 @@
-# Random musing on Jetpack Compose
+---
+title: "Random musing on Jetpack Compose"
+date: 2019-05-08
+---
 
 [Compose](https://developer.android.com/jetpack/compose) is a new
 reactive-style ui framework for android. After poking around in the source
@@ -47,5 +50,3 @@ fun CustomRadioGroup() {
     }
 }
 ```
-
-> :ToCPrevNext

@@ -1,4 +1,7 @@
-# You Don't Need to Null Out Views
+---
+title: "You Don't Need to Null Out Views"
+date: 2020-03-02
+---
 
 There's been a long standing footgun when using fragments on Android because
 the fragment may live longer than it's views. Solutions to this have ranged
@@ -160,5 +163,3 @@ override fun onRequestPermissionsResult(
 By scoping your views to `onViewCreated` you don't have to worry about nulling
 them out our calling them at the wrong time. And AndroidX gives you the tools
 to do it!
-
-> :ToCPrevNext
