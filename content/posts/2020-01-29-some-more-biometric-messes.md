@@ -1,4 +1,7 @@
-# Some More Biometric Messes
+---
+title: "Some More Biometric Messes"
+date: 2020-01-29
+---
 
 This is a follow-up to [The Mess that is Android
 Biometrics](https://evan.tatarka.me/2019/10/01/the-mess-that-is-android-biometrics.html),
@@ -74,5 +77,3 @@ will be available in Android 11 and hopefully there will be some androidx
 workaround. In the meantime, I've been maintaining a [sample
 repo](https://github.com/evant/android-biometrics-compat-issue) that collects
 all the workarounds necessary for getting biometrics to work correctly.
-
-> :ToCPrevNext

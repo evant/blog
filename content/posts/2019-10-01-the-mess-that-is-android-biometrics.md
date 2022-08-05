@@ -1,4 +1,7 @@
-# The Mess that is Android Biometrics
+---
+title: "The Mess that is Android Biometrics"
+date: 2019-10-01
+---
 
 Oh FingerprintManager is deprecated? It’s replaced with this new thing
 BiometricPrompt that comes with it’s own UI and supports a wider range of
@@ -110,5 +113,3 @@ some sort of work-around for the Samsung issue in the androidx lib. And with
 the Pixel 4 around the corner which is rumored on only have face unlock, this
 is good. As it stands today, we aren’t quite at the place we can drop something
 in and call it a day, but we are a bit closer.
-
-> :ToCPrevNext
