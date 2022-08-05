@@ -16,3 +16,6 @@ Content = 'Opinions expressed here are my own, not those of my company.'
 [[params.socialIcons]]
 name = 'github'
 url = 'https://github.com/evant/'
+
+[params.analytics.google]
+SiteVerificationTag = "UA-160017120-1"
