@@ -1,4 +1,4 @@
-baseURL = 'https://eva.tatarka.me/blog'
+baseURL = 'https://eva.tatarka.me'
 languageCode = 'en-us'
 title = 'evant'
 theme = 'PaperMod'
@@ -19,3 +19,7 @@ url = 'https://github.com/evant/'
 
 [params.analytics.google]
 SiteVerificationTag = "UA-160017120-1"
+
+[module]
+[[module.imports]]
+path = "github.com/rootwork/hugo-module-gallery-grid"
