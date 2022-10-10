@@ -1,10 +1,10 @@
-baseURL = 'https://evan.tatarka.me/blog'
+baseURL = 'https://eva.tatarka.me/blog'
 languageCode = 'en-us'
 title = 'evant'
 theme = 'PaperMod'
 
 [params]
-author = 'Evan Tatarka'
+author = 'Eva Tatarka'
 
 [params.label]
 icon = 'logo.png'
