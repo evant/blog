@@ -1,20 +1,16 @@
 ---
 title: "Iterative Artwork creation with AI"
 date: 2022-10-10
+cover:
+  image: fox-beach2.png
+  alt: "A fox girl with long red hair and blue eyes wearing a blue bikini standing at the beach"
 ---
 
 Doubt I'm the first to think of this but I discovered an interesting process to
 create artwork with ai that I though I'd jot down. The key idea is instead of
 simply trying to generate the image you want, you go though a process of
 generate -> edit -> generate -> edit. Lets follow along with how I came to the
-image below to get a better idea what I'm talking about.
-
-The first thing I tried was generate what I wanted directly from a prompt.
-
-> 1girl, solo, cute, fox ears, fox tail, red hair, long hair, blue bikini,
-beach, key animation, dynamic shot, soft lighting
-
-![A fox girl with long red hair and blue eyes wearing a blue bikini standing at the beach](fox-beach2.png)
+image above to get a better idea what I'm talking about.
 
 The first thing I tried was generate what I wanted directly from a prompt.
 
