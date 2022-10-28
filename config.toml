@@ -3,6 +3,8 @@ languageCode = 'en-us'
 title = 'evant'
 theme = 'PaperMod'
 
+googleAnalytics = 'G-MJ6E9W7J4X'
+
 [params]
 author = 'Eva Tatarka'
 
