@@ -21,6 +21,9 @@ url = 'https://github.com/evant/'
 [[params.socialIcons]]
 name = 'rss'
 url = 'index.xml'
+[[params.socialIcons]]
+name = 'mastodon'
+url = 'https://pony.social/web/@pixellight'
 
 [params.analytics.google]
 SiteVerificationTag = "UA-160017120-1"
