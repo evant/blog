@@ -23,7 +23,7 @@ name = 'rss'
 url = 'index.xml'
 [[params.socialIcons]]
 name = 'mastodon'
-url = 'https://pony.social/web/@pixellight'
+url = 'https://pony.social/@pixellight'
 
 [params.analytics.google]
 SiteVerificationTag = "UA-160017120-1"
